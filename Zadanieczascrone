@@ -1,0 +1,4 @@
+DATEVAR=date +%Y%m%d_%H%M%S
+
+
+* * * * * echo $($DATEVAR) >> /tmp/test.txt
